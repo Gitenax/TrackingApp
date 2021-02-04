@@ -1,0 +1,8 @@
+D:\Shugurovo\TrackingSystem\ReportForms\bin\Debug\ReportForms.dll
+D:\Shugurovo\TrackingSystem\ReportForms\bin\Debug\ReportForms.pdb
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.csproj.GenerateResource.Cache
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.dll
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.pdb
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.MainForm.resources
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.csprojResolveAssemblyReference.cache
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Debug\ReportForms.Properties.Resource1.resources

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F7A3D38-C2C3-4130-81EB-3A61330D7923}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TrackingSystem</RootNamespace>
+    <AssemblyName>TrackingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>terminal.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEdit.Designer.cs">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage.Designer.cs">
+      <DependentUpon>DataManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Duration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Duration.Designer.cs">
+      <DependentUpon>Duration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataCommon.cs" />
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="Helpers\ThreadingHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Base.cs" />
+    <Compile Include="Models\CarBrand.cs" />
+    <Compile Include="Models\CarModel.cs" />
+    <Compile Include="Models\Cars.cs" />
+    <Compile Include="Models\CarType.cs" />
+    <Compile Include="Models\Drivers.cs" />
+    <Compile Include="Models\Estimate.cs" />
+    <Compile Include="Models\Organisations.cs" />
+    <Compile Include="Models\Staff.cs" />
+    <Compile Include="Models\StaffPosition.cs" />
+    <Compile Include="Models\Trackinglists.cs" />
+    <Compile Include="ProcessWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessWindow.Designer.cs">
+      <DependentUpon>ProcessWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reference.Designer.cs">
+      <DependentUpon>Reference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove.Designer.cs">
+      <DependentUpon>Remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportEngine.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddEdit.resx">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage.resx">
+      <DependentUpon>DataManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duration.resx">
+      <DependentUpon>Duration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessWindow.resx">
+      <DependentUpon>ProcessWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reference.resx">
+      <DependentUpon>Reference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove.resx">
+      <DependentUpon>Remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications-accessories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-floppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-office-spreadsheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addressbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addressbook_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple-script.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_rar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_zip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_pie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy-disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addressbook.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag_blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag_green.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terminal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do-list.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard_delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-office-spreadsheet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exclamation.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\Warn.png" />
+    <None Include="Resources\ProcessClock.png" />
+    <Content Include="terminal.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

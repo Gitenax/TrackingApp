@@ -1,0 +1,8 @@
+D:\Shugurovo\TrackingSystem\ReportForms\bin\Release\ReportForms.dll
+D:\Shugurovo\TrackingSystem\ReportForms\bin\Release\ReportForms.pdb
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.csprojResolveAssemblyReference.cache
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.MainForm.resources
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.Properties.Resource1.resources
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.csproj.GenerateResource.Cache
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.dll
+D:\Shugurovo\TrackingSystem\ReportForms\obj\Release\ReportForms.pdb

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gitenax\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gitenax\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TrackingSystem.-1725844207.00" t="ExcludeRecursive" />
+    <e p="D:\YANDEXDISK\CodeWorks\C#\Shugurovo\TrackingSystem" t="IncludeFlat">
+      <e p="AlterTable" t="IncludeRecursive">
+        <e p="AlterTable.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="to-do-list.ico" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TrackingSystem" t="IncludeRecursive">
+        <e p="AddEdit.cs" t="Include" />
+        <e p="AddEdit.Designer.cs" t="Include" />
+        <e p="AddEdit.resx" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataManage.cs" t="Include" />
+        <e p="DataManage.Designer.cs" t="Include" />
+        <e p="DataManage.resx" t="Include" />
+        <e p="Duration.cs" t="Include" />
+        <e p="Duration.Designer.cs" t="Include" />
+        <e p="Duration.resx" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="DataCommon.cs" t="Include" />
+          <e p="ExtensionMethods.cs" t="Include" />
+          <e p="ThreadingHelper.cs" t="Include" />
+        </e>
+        <e p="MainForm.cs" t="Include" />
+        <e p="MainForm.Designer.cs" t="Include" />
+        <e p="MainForm.resx" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Base.cs" t="Include" />
+          <e p="CarBrand.cs" t="Include" />
+          <e p="CarModel.cs" t="Include" />
+          <e p="Cars.cs" t="Include" />
+          <e p="CarType.cs" t="Include" />
+          <e p="Drivers.cs" t="Include" />
+          <e p="Estimate.cs" t="Include" />
+          <e p="Organisations.cs" t="Include" />
+          <e p="Staff.cs" t="Include" />
+          <e p="StaffPosition.cs" t="Include" />
+          <e p="Trackinglists.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ProcessWindow.cs" t="Include" />
+        <e p="ProcessWindow.Designer.cs" t="Include" />
+        <e p="ProcessWindow.resx" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Reference.cs" t="Include" />
+        <e p="Reference.Designer.cs" t="Include" />
+        <e p="Reference.resx" t="Include" />
+        <e p="Remove.cs" t="Include" />
+        <e p="Remove.Designer.cs" t="Include" />
+        <e p="Remove.resx" t="Include" />
+        <e p="Report.cs" t="Include" />
+        <e p="Report.Designer.cs" t="Include" />
+        <e p="Report.resx" t="Include" />
+        <e p="ReportEngine.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="add.png" t="Include" />
+          <e p="addressbook.ico" t="Include" />
+          <e p="addressbook.png" t="Include" />
+          <e p="addressbook_user.png" t="Include" />
+          <e p="apple-script.png" t="Include" />
+          <e p="applications-accessories.png" t="Include" />
+          <e p="applications.png" t="Include" />
+          <e p="block.png" t="Include" />
+          <e p="box_address.png" t="Include" />
+          <e p="box_rar.png" t="Include" />
+          <e p="box_zip.png" t="Include" />
+          <e p="calendar.png" t="Include" />
+          <e p="calendar_empty.png" t="Include" />
+          <e p="chart.png" t="Include" />
+          <e p="chart1.png" t="Include" />
+          <e p="chart_pie.png" t="Include" />
+          <e p="clock.png" t="Include" />
+          <e p="comment.png" t="Include" />
+          <e p="database.png" t="Include" />
+          <e p="database_add.png" t="Include" />
+          <e p="database_alert.png" t="Include" />
+          <e p="database_check.png" t="Include" />
+          <e p="database_delete.png" t="Include" />
+          <e p="database_download.png" t="Include" />
+          <e p="dialog-error.png" t="Include" />
+          <e p="dialog-warning.png" t="Include" />
+          <e p="Exclamation.png" t="Include" />
+          <e p="floppy-disk.png" t="Include" />
+          <e p="folder_blue.png" t="Include" />
+          <e p="help.png" t="Include" />
+          <e p="info.png" t="Include" />
+          <e p="lock.png" t="Include" />
+          <e p="media-floppy.png" t="Include" />
+          <e p="preferences-system.png" t="Include" />
+          <e p="ProcessClock.png" t="Include" />
+          <e p="question.png" t="Include" />
+          <e p="tag_blue.ico" t="Include" />
+          <e p="tag_blue.png" t="Include" />
+          <e p="tag_green.ico" t="Include" />
+          <e p="tag_green.png" t="Include" />
+          <e p="terminal.ico" t="Include" />
+          <e p="terminal.png" t="Include" />
+          <e p="to-do-list.ico" t="Include" />
+          <e p="to-do-list.png" t="Include" />
+          <e p="unlock.ico" t="Include" />
+          <e p="unlock.png" t="Include" />
+          <e p="vcard.ico" t="Include" />
+          <e p="vcard.png" t="Include" />
+          <e p="vcard_add.ico" t="Include" />
+          <e p="vcard_add.png" t="Include" />
+          <e p="vcard_check.ico" t="Include" />
+          <e p="vcard_check.png" t="Include" />
+          <e p="vcard_delete.ico" t="Include" />
+          <e p="vcard_delete.png" t="Include" />
+          <e p="Warn.png" t="Include" />
+          <e p="x-office-spreadsheet.ico" t="Include" />
+          <e p="x-office-spreadsheet.png" t="Include" />
+        </e>
+        <e p="SettingsForm.cs" t="Include" />
+        <e p="SettingsForm.Designer.cs" t="Include" />
+        <e p="SettingsForm.resx" t="Include" />
+        <e p="terminal.ico" t="Include" />
+        <e p="TrackingSystem.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TrackingSystem.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+D:\Shugurovo\TrackingSystem\AlterTable\bin\Release\AlterTable.exe
+D:\Shugurovo\TrackingSystem\AlterTable\bin\Release\AlterTable.pdb
+D:\Shugurovo\TrackingSystem\AlterTable\obj\Release\AlterTable.csprojResolveAssemblyReference.cache
+D:\Shugurovo\TrackingSystem\AlterTable\obj\Release\AlterTable.exe
+D:\Shugurovo\TrackingSystem\AlterTable\obj\Release\AlterTable.pdb
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Release\AlterTable.exe
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Release\AlterTable.pdb

@@ -1,0 +1,4 @@
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Debug\AlterTable.exe
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Debug\AlterTable.pdb
+D:\Shugurovo\TrackingSystem\AlterTable\obj\Debug\AlterTable.exe
+D:\Shugurovo\TrackingSystem\AlterTable\obj\Debug\AlterTable.pdb

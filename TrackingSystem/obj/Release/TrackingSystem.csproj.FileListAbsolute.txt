@@ -1,0 +1,17 @@
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Release\TrackingSystem.exe.config
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Release\TrackingSystem.exe
+D:\Shugurovo\TrackingSystem\TrackingSystem\bin\Release\TrackingSystem.pdb
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Add.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.DataManage.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Duration.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Edit.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.MainForm.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Properties.Resources.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Report.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.csproj.GenerateResource.Cache
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.exe
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.pdb
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.csprojResolveAssemblyReference.cache
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.ProcessWindow.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Remove.resources
+D:\Shugurovo\TrackingSystem\TrackingSystem\obj\Release\TrackingSystem.Reference.resources
